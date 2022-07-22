@@ -1,0 +1,21 @@
+{
+  "name": "wealthtech",
+  "version": "1.0.0",
+  "description": "- 客户端 ### wealthtech-server - 服务端",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:server && npm run dev:client",
+    "dev:common": "统一启动client和server",
+    "dev:client": "cd wealthtech-client && npm run dev",
+    "dev:server": "cd wealthtech-server && npm run dev",
+    "install": "npm run install:server && npm run install:client",
+    "install:client": "cd wealthtech-client && yarn install",
+    "install:server": "cd wealthtech-server && yarn install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.newbanker.cn:10022/amc/wealthtech.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
