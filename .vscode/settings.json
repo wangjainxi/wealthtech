@@ -1,0 +1,6 @@
+{
+    "eslint.workingDirectories": [
+      "wealthtech-client",
+      "wealthtech-server"
+    ]
+  }
