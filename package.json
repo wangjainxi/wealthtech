@@ -4,7 +4,7 @@
   "description": "- 客户端 ### wealthtech-server - 服务端",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run dev:server && npm run dev:client",
+    "dev": "npm run dev:client && npm run dev:server",
     "dev:common": "统一启动client和server",
     "dev:client": "cd wealthtech-client && npm run dev",
     "dev:server": "cd wealthtech-server && npm run dev",
